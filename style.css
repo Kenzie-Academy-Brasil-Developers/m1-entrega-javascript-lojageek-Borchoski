@@ -1,0 +1,130 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.containerHeader{
+    
+    margin-bottom: 35px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.imgLogo{
+    display: flex;
+    justify-content: left;
+    max-width: 150px;
+}
+.botaoCabecalho{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    max-width: 108px;
+   
+}
+.botaoCabecalho button{
+    display: flex;
+    padding: 2px 35px;
+    text-decoration: none;
+    height: 40px;
+    margin-left: 20px;
+    width: 150px;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.botao1{
+    background-color:  #0A99FE;
+    color: white;
+    font-weight: 600;
+    font-weight: 20px;
+}
+.botao2{
+    background-color: rgb(10, 153, 254, 0.1);
+    color: #0A99FE;
+    font-weight: 600;
+    font-weight: 20px;
+}
+.containerMain{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.itensPainting{
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    margin: 15px;
+    max-width: 100%;
+}
+.paintings h2{
+    margin: 15px;
+    font-weight: 20px;
+}
+.itensAction{
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    margin: 15px;
+    max-width: 100%;
+}
+.actionFigure h2{
+    margin: 15px;
+    padding-top: 12px;
+    font-weight: 20px;
+}
+.card{
+    border: solid rgb(0, 0, 0, 0.2) 1px;
+    border-radius: 8px;
+    padding: 5px;
+    width: 207px;
+    height: 275px;
+    margin-right: 20px;
+    background-color: #DADADA;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-bottom: 27px;
+    list-style: none;
+}
+.card p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 16px;
+    
+}
+.card h3{
+    text-align: center;
+    margin-top: 5px;
+    color: #868383;
+    font-weight: 20px;
+    font-size: medium;
+}
+.card figure{
+    width: 207px;
+    height: 200px;
+    text-align: center;
+}
+.card img{
+    max-width: 207px;
+    max-height: 150px;
+    overflow: hidden;
+    border: solid black 1px;
+    margin-top: 4px;
+    border-radius: 16px;
+}
+.botaoCabecalho button:hover{
+    border: rgb(0, 0, 0,) solid 1px;
+    
+}
